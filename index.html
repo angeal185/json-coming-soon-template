@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>coming soon template</title>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<div id="GO"></div>
+<script src="js/jquery.js"></script>
+<script src="js/json2html.js"></script>
+<script src="js/data.json"></script>
+<script>
+$(function(){
+	$('#GO').json2html(data,transform);
+	$('#tranSocial0').json2html(data1,transform1);
+	$('#tranSocial').json2html(data2,transform2);
+});
+</script>
+<script src="js/foundation.js"></script>
+<script src="js/countdown.js"></script>
+<script src="js/owl-carousel.js"></script>
+<script type="text/javascript" src="js/jquery.backstretch.js"></script>
+<script src="js/custom.js"></script>
+
+<script>
+$(document).foundation();
+
+$(document).ready(function ($) {
+
+'use strict';
+
+$.backstretch([
+  "img/img1.jpg",
+  "img/img2.jpg",
+  "img/img3.jpg"
+], {
+	fade: 750,
+	duration: 5000
+});
+
+$("#sync2 .item h3, .fa").addClass("hvr-buzz");
+$(".footer p, h1.rotate span").addClass("hvr-pulse");
+$(".heading span").addClass("hvr-bob");
+$("h3.info-box").addClass("hvr-underline-from-left");
+});
+</script>
+</body>
+</html>
+

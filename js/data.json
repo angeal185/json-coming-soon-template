@@ -1,0 +1,153 @@
+﻿var data = [
+  {
+  "title":"Add Title Here",
+  "lorem":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget leo at velit imperdiet varius. Lorem ipsum dolor sit amet,"
+  },
+];
+
+var transform = [
+  {"<>":"div","class":"wrapper","html":[
+      {"<>":"section","id":"top","html":[
+          {"<>":"header","html":[
+              {"<>":"div","class":"row","html":[
+                  {"<>":"div","class":"large-12 columns","html":[
+                      {"<>":"div","class":"large-8 medium-12 small-12 large-text-left small-text-center medium-text-center columns","html":[
+                          {"<>":"img","src":"","alt":"${title}","html":""}
+                        ]},
+                      {"<>":"div","class":"large-4 columns text-right","html":[
+                          {"<>":"div","id":"sync2","class":"owl-carousel","html":[
+
+                              {"<>":"div","class":"item","html":[
+                                  {"<>":"h3","html":"subscribe"}
+                                ]},
+                              {"<>":"div","class":"item","html":[
+                                  {"<>":"h3","html":"Email"}
+                                ]},
+                              {"<>":"div","class":"item","html":[
+                                  {"<>":"h3","html":"About Us"}
+                                ]}
+
+                            ]}
+                        ]}
+                    ]}
+                ]}
+            ]},
+          {"<>":"div","class":"row","html":[
+              {"<>":"div","class":"large-12 large-centered columns","html":[
+                  {"<>":"div","id":"rotate","html":[
+                      {"<>":"h1","class":"rotate","html":[
+                          {"<>":"span","html":"${title}"}
+                        ]},
+                      {"<>":"h1","class":"rotate","html":[
+                          {"<>":"span","html":"Site under construction"}
+                        ]}
+                    ]}
+                ]}
+            ]}
+        ]},
+      {"<>":"section","id":"contacts","html":[
+          {"<>":"div","class":"row","html":[
+              {"<>":"div","class":"small-12 large-12  columns","html":[
+                  {"<>":"div","id":"sync1","class":"owl-carousel ","html":[
+                      {"<>":"div","class":"item","html":[
+                          {"<>":"div","class":"row","html":[
+                              {"<>":"div","class":"large-12 columns text-center","html":[
+                                  {"<>":"div","class":"text-center","html":[
+                                      {"<>":"h2","class":"heading","html":[
+                                          {"<>":"span","html":"until launching"}
+                                        ]},
+                                      {"<>":"p","html":"${lorem}"},
+                                      {"<>":"br","html":""},
+                                      {"<>":"br","html":""}
+                                    ]},
+                                  {"<>":"div","class":"small-10 columns small-centered","html":[
+                                      {"<>":"div","id":"timer","html":""}
+                                    ]}
+                                ]}
+                            ]},
+                          {"<>":"div","class":"large-7 large-centered columns","html":[
+                              {"<>":"div","id":"message-subscribe","html":""},
+                              [
+                                {"<>":"input","type":"text","id":"semail","name":"YourEmail","placeholder":"Enter your email","html":""},
+                                {"<>":"button","type":"submit","id":"ssubmit","name":"subscribe","html":""}
+                              ]
+                            ]}
+                        ]},
+                      {"<>":"div","class":"item small-12 large-10 medium-10 medium-centered large-centered columns animated","data-animate-delay":"400","data-animate":"fadeInUp","html":[
+                          {"<>":"div","class":"text-center","html":[
+                              {"<>":"h2","class":"heading","html":[
+                                  {"<>":"span","html":"question?"}
+                                ]},
+                              {"<>":"p","html":"${lorem}"},
+                              {"<>":"br","html":""},
+                              {"<>":"br","html":""}
+                            ]},
+                          {"<>":"div","id":"message","html":""},
+                          [
+                            {"<>":"input","type":"text","name":"name","placeholder":"Name","id":"name","html":""},
+                            {"<>":"input","type":"text","name":"email","placeholder":"Email","id":"email","html":""},
+                            {"<>":"textarea","placeholder":"Message","name":"comments","id":"comments","html":""},
+                            {"<>":"button","type":"submit","id":"submit","name":"submit","html":[
+                                {"<>":"i","class":"fa fa-envelope-o","html":""}
+                              ]}
+                          ]
+                        ]},
+                      {"<>":"div","class":"item small-12 large-12 medium-12 medium-centered large-centered columns","html":[
+                          {"<>":"div","class":"text-center","html":[
+                              {"<>":"h2","class":"heading","html":[
+                                  {"<>":"span","html":"Best Services"}
+                                ]},
+                              {"<>":"p","html":"${lorem}"},
+                              {"<>":"br","html":""},
+                              {"<>":"br","html":""}
+                            ]},
+                          {"<>":"div","id":"tranSocial0"}
+                        ]}
+                    ]}
+                ]}
+            ]}
+        ]},
+      {"<>":"div","class":"push","html":""}
+    ]},
+  {"<>":"footer","class":"footer","html":[
+      {"<>":"div","class":"row","html":[
+          {"<>":"div","class":"large-12 columns text-center","html":[
+              {"<>":"ul","id":"tranSocial","class":"social"},
+              {"<>":"p","html":"2016 ben eaves"}
+            ]}
+        ]}
+    ]}
+];
+
+var data1 = [
+{"title":"jquery"},
+{"title":"foundation"},
+{"title":"json"},
+{"title":"stylus"},
+];
+
+﻿var transform1 = [
+{"<>":"div","class":"large-6 medium-6 columns info-box","html":[
+    {"<>":"i","class":" info-box fa fa-code","html":""},
+    {"<>":"h3","class":"info-box","html":"${title}"},
+    {"<>":"p","html":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget leo at velit imperdiet varius. Lorem ipsum dolor sit amet, consectetur adipiscing elit."}
+  ]}
+];
+
+var data2 = [
+{"title":"twitter"},
+{"title":"facebook"},
+{"title":"pinterest"},
+{"title":"linkedin"},
+{"title":"dribbble"},
+{"title":"flickr"},
+{"title":"github"},
+];
+
+﻿var transform2 = [
+{"<>":"li","html":[
+    {"<>":"a","title":"${title}","href":"#","html":[
+        {"<>":"i","class":"fa fa-${title}","html":""}
+      ]}
+  ]}
+];
